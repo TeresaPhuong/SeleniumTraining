@@ -78,10 +78,10 @@ namespace SpecFlow_Nunit
             ClickButton(SaveNew_BTN);
         }
 
-        private void ClickCancelBTN()
-        {
-            ClickButton(Cancel_BTN);
-        }
+        //private void ClickCancelBTN()
+        //{
+        //    ClickButton(Cancel_BTN);
+        //}
 
         public ArticleManagerPage AddNewArticle(string title, string alias, string content, string status, string category)
         {
